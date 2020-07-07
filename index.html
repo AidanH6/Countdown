@@ -1,1 +1,23 @@
-<h1>Countdown Timer</h1>
+<!DOCTYPE html>
+<html>
+    <header>
+        <link rel="stylesheet" href="main.css">
+        <script src="./javascript/vue.js"></script>
+        <title>Countdown Timer</title>
+    </header>
+    <body>
+        <div id="app">
+            {{ message }}
+        </div>
+
+        <script>
+            new Vue({
+                el: '#app',
+                data: {
+                    message: 'Vue.js is working'
+                }
+            });
+        </script>
+
+    </body>
+</html>
