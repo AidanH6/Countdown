@@ -14,8 +14,9 @@
 }
 
 .header-title {
-    padding-top: 2px;
-    font-size: 2vh;
+    padding-top: 12px;
+    padding-left: 12px;
+    font-size: 4vh;
 }
 
 .main-area {
