@@ -17,3 +17,9 @@
     height: 8vh;
     background-color: red;
 }
+
+.main-area {
+    height: 20vh;
+    width: 100vh;
+    border: solid black;
+}
