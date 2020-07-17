@@ -1,20 +1,29 @@
 <!DOCTYPE html>
 <html>
-    <header>
+    <head>
         <link rel="stylesheet" href="main.css">
         <script src="./javascript/vue.js"></script>
         <title>Countdown Timer</title>
-    </header>
-    <body>
-        <div id="app">
-            {{ message }}
+    </head>
+    <body class="body">
+        <header>
+            <div class="header">
+                <div class="header-title">Countdown!</div> 
+            </div>
+        </header>
+        
+        <div class="main-area">
+            <p>Holiday Countdown!</p>
+            <div id="app">    
+                {{ message }}
+            </div>
         </div>
 
         <script>
             new Vue({
                 el: '#app',
                 data: {
-                    message: 'Vue.js is working'
+                    message: 'Vue.js in working!'
                 }
             });
         </script>
