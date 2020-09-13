@@ -6,6 +6,6 @@ const message = 'Hello';
 var message = new Vue({
     el: '#message',
     data: {
-        message: message
+        message: "Hi there"
     }
 });
