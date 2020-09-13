@@ -4,11 +4,8 @@
 const message = 'Hello';
 
 var app = new Vue({
+    el: '#message',
     data: {
-        // declare message with an empty value
-        message: ''
-    },
-    template: '<div>{{ message }}</div>'
-})
-// set `message` later
-vm.message = 'Hello!'
+        message: "Hi there"
+    }
+});
