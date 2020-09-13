@@ -2,7 +2,7 @@
 /* Copyright Aidan Hopkins 2020 */
 
 .body {
-    height: 100vh;
+    height: 100%;
     margin: 0px;
     overflow: hidden;
     width: 100vw;
@@ -20,9 +20,10 @@
 }
 
 .main-area {
-    height: 25vh;
+    height: 85%;
     width: 96%;
     border: solid black;
     margin: 30px;
     padding-left: 15px;
+    position: absolute;
 }
