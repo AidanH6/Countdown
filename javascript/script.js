@@ -1,11 +1,11 @@
 /* Javascript for countdown website */
 /* Copyright Aidan Hopkins 2020 */
 
-const message = 'Hello';
+const vueMessage = 'Hello';
 
 var app = new Vue({
-    el: '#message',
+    el: '#app',
     data: {
-        message: "Hi there"
+        message: vueMessage
     }
 });
