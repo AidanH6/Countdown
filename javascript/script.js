@@ -3,8 +3,8 @@
 
 const message = 'Hello';
 
-new Vue({
-    el: '#app',
+var message = new Vue({
+    el: '#message',
     data: {
         message: message
     }
