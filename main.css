@@ -27,3 +27,9 @@
     padding-left: 15px;
     position: absolute;
 }
+
+.modal-template {
+    height: 75px;
+    width: 105px;
+    background-color: blue;
+}
